@@ -3,5 +3,5 @@
 .settings/
 target/
 .idea/
-resources/screenshots/**
-resources/reports/**
+src/main/resources/screenshot/
+src/main/resources/reports/
