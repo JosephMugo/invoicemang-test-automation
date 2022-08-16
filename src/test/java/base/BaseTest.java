@@ -10,12 +10,12 @@ import pages.HomePage;
 public class BaseTest {
 
     private WebDriver driver;
-    private HomePage homePage;
+    protected HomePage homePage;
     private String homePageUrl = "http://localhost:3000/home";
 
     @BeforeClass
     public void setup() {
-        System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
         driver = new ChromeDriver();
         goHome();
 
