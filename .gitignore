@@ -4,3 +4,4 @@
 target/
 .idea/
 resources/screenshots/**
+resources/reports/**
